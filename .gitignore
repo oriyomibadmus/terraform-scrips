@@ -4,3 +4,27 @@
 .terraform.tfstate.lock.info
 terraform.tfstate
 terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Terraform variables files
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+
+# .terraform directory
+.terraform/
+.terraform.lock.hcl
+
+./.terraform/
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore specific file names
+terraform.tfvars
